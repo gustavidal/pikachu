@@ -77,6 +77,10 @@ h1{
     align-items: center;
 }
 
+.descricao{
+    z-index: 1;
+}
+
 .pikachu{
     position: absolute;
     top: 50%;
