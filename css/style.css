@@ -85,5 +85,6 @@ h1{
 }
 
 footer{
-    background-color: cyan;
+    text-align: center;
+    color: var(--secundary-color);
 }
