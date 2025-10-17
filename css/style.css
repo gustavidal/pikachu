@@ -31,7 +31,7 @@ main{
 
 .sombra{
     position: absolute;
-    font-size: 28vw;
+    font-size: 400px;
     color: #ffffff55;
     z-index: -999;
     top: 50%;
@@ -41,7 +41,7 @@ main{
 
 h1{
     flex-grow: 1;
-    font-size: 22vw;
+    font-size: 300px;
     color: white;
     display: flex;
     justify-content: center;
@@ -101,11 +101,12 @@ footer{
 
     .sombra{
         transform: translate(-50%, -180%);
-
+        font-size: 28vw;
     }
 
     h1{
         transform: translate(0, -30%);
+        font-size: 22vw;
     }
 
     .container{
@@ -131,4 +132,27 @@ footer{
 
 /* MOBILE */
 @media (max-width: 480px){
+    .descricao p{
+        display: none;
+    }
+
+    .sombra{
+        transform: translate(-50%, -220%);
+    }
+
+    h1{
+        transform: translate(0, -22%);
+    }
+
+    .descricao h2{
+        font-size: 38px;
+    }
+
+    .container a{
+        width: 100%;
+    }
+
+    .pikachu{
+        height: 50vh;
+    }
 }
